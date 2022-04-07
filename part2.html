@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Log</title>
+  </head>
+  <body>
+    <header>
+      <!-- The likes to the three pages-->
+      <nav>
+        <a href="index.html">Page 1</a>
+        <a href="part1.html">Page 2</a>
+        <a href="part2.html">Page 3</a>
+      </nav>
+      <h1>The beast drinks</h1>
+    </header>
+    <!-- The main content of this page -->
+    <main>
+      <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+
+      <dl>
+        <dt>Coffee</dt>
+        <dd>with one cup milk two spoons suger</dd>
+        <dt>Milk</dt>
+        <dd>beast coled</dd>
+        <dt>Tea</dt>
+        <dd>Black with Ginger</dd>
+      </dl>
+      <!-- The cost table-->
+      <h3>Food Cost</h3>
+
+      <table>
+        <tr>
+          <th>Food</th>
+          <th>Cost</th>
+        </tr>
+        <tr>
+          <td>Beef</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>Fish</td>
+          <td>$80</td>
+        </tr>
+        <tr>
+          <td>Chicken</td>
+          <td>$150</td>
+        </tr>
+      </table>
+
+      <form action="/action_page.php" method="get">
+        <label for="love">love of food (between 0 and 50):</label>
+        <input type="range" id="love" name="love" min="0" max="50" />
+        <input type="submit" value="Submit" />
+      </form>
+    </main>
+  </body>
 </html>

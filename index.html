@@ -1,15 +1,83 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My First Webpage</title>
-</head>
-<body>
-  <h1>Hello world!</h1>
-  <p>My name is Geno Obonde</p>
-  <p>I am 15</p>
-   <a href="https://www.pembinatrails.ca/">Pembinatrails Home</a>
-   
-</body> 
+
+    <style>
+      /* The id for the top information*/
+      #Goodloocking {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <!--The start of the page -->
+    <header>
+      <p id="Goodloocking">
+        •Name: JF Geno Obonde <br />
+        •Course:Software Development 20S<br />
+        •Teacher: Mr.Hardman<br />
+        •School: Pembina Trails Early College<br />
+        •Date Last Modified: 4/7/2022
+      </p>
+    </header>
+    <main>
+      </form>
+<!-- I did same reserched this form and it is vary intresting-->
+      <form action="part1.html">
+        <label for="psearch">Search page2:</label>
+        <input type="search" id="psearch" name="psearch" />
+        <input type="submit" value="Submit" />
+      </form>
+      <!-- The information on me -->
+      <h1>Hello world!</h1>
+      <p>My name is Geno Obonde</p>
+      <p>
+        I am 15 and i love food and this is same information on the food i like
+      </p>
+      <form action="part1.html">
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" /><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+
+      <form action="part1.html">
+        <input
+          type="checkbox"
+          id="don't like food"
+          name="I don't like food"
+          value="don't like food"
+        />
+        <label for="don't like food"> I don't like food</label><br />
+        <input
+          type="checkbox"
+          id="I like food"
+          name="I like food"
+          value="like food"
+        />
+        <label for="I like food"> I like food</label><br />
+        <input
+          type="checkbox"
+          id="I love food"
+          name="I love food"
+          value="love food"
+        />
+        <label for="I love food"> I love food</label><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+       
+    </main>
+    <footer>
+      <!-- The likes to the three pages-->
+      <nav>
+        <a href="index.html">Page 1</a>
+        <a href="part1.html">Page 2</a>
+        <a href="part2.html">Page 3</a>
+      </nav>
+    </footer>
+  </body>
 </html>
